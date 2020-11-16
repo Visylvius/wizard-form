@@ -70,17 +70,17 @@
       "order/properties-alphabetical-order": true
     }
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run jest"
-    }
-  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.scss": [
       "npm run style-lint:fix",
       "npm run style-lint"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run jest"
+    }
   }
 }
