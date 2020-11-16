@@ -1,8 +1,8 @@
 @import '../../variables';
 
 .FeedbackText-characterLimit {
-  display: flex;
   color: $character-limit;
+  display: flex;
   font-size: 10px;
   justify-content: flex-end;
 }

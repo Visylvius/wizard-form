@@ -1,24 +1,24 @@
 @import './variables';
 
 .App-container {
-  display: flex;
   align-items: center;
+  background-color: $plain-grey;
+  display: flex;
   flex-direction: column;
-  background-color: grey;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
   width: 100%;
 }
 
 .App-modalContainer {
+  align-items: center;
   background-color: $plain-white;
   border-radius: 3px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 250px;
-  width: 500px;
+  justify-content: center;
   padding: 10px;
+  width: 500px;
 
   .App-Button {
     margin-top: 10px; 
