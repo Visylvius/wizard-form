@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.RadioFeedback-container {
+  display: flex;
+  flex-direction: column;
+
+  .RadioFeedback-inputContainer {
+    margin: 10px 0 0 15px;
+  }
+
+  .RadioFeedback-RadioInput {
+    margin-bottom: 15px;
+  }
+
+  .RadioFeedback-label {
+    color: $font-main;
+    font-size: 12px;
+  }
+}

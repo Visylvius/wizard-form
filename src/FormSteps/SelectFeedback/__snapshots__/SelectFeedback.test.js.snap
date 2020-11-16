@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectFeedback (Unit) render should render null if the step is not 5 1`] = `null`;
+
+exports[`SelectFeedback (Unit) render should render properly 1`] = `
+Array [
+  <label
+    className="Select-label"
+  >
+    Please choose a category you would like to leave feedback about.
+  </label>,
+  <select
+    className="Select-mainWrapper"
+    name="selectFeedback"
+    onChange={[MockFunction]}
+    value="default"
+  >
+    <option
+      defaultValue={true}
+      disabled={true}
+      value="default"
+    >
+      Choose...
+    </option>
+    <option
+      data-testid="SelectOption-0"
+      value="website"
+    >
+      Our Website
+    </option>
+    <option
+      data-testid="SelectOption-1"
+      value="products"
+    >
+      Our Products
+    </option>
+    <option
+      data-testid="SelectOption-2"
+      value="retail"
+    >
+      Our Retail Locations
+    </option>
+    <option
+      data-testid="SelectOption-3"
+      value="service"
+    >
+      Our Customer Service
+    </option>
+    <option
+      data-testid="SelectOption-4"
+      value="general"
+    >
+      Cole Haan, Generally
+    </option>
+  </select>,
+  <div
+    className="Button-container"
+  >
+    <button
+      className="Button-component SelectFeedback-Button"
+      data-testid="SelectFeedback-Button"
+      disabled={true}
+      onClick={[MockFunction]}
+    >
+      Next
+    </button>
+  </div>,
+]
+`;

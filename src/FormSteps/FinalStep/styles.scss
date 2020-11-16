@@ -1,0 +1,12 @@
+.FinalStep-container {
+  display: flex;
+  flex-direction: column;
+
+  .FinalStep-feedbackText {
+    display: block;
+    overflow: hidden;
+    width: 450px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

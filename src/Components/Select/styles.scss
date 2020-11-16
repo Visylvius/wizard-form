@@ -1,0 +1,26 @@
+@import '../../variables';
+
+.Select-label {
+  color: $font-main;
+  font-size: 12px;
+}
+
+.Select-mainWrapper {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIS+3VMU9CMRTF8d8zBL+aizoQFhx0kUk33RzdYMNFXUFnYeGrYYyaJiUxJHDLSxodbNKpfeffc9/pbaPyaCrr+3OA++z4rtT5Pg5GuMnCY9yWQEoBE1xhlUUP8YDrCBIB0vojLvGO0yz4hm4JJAKcYYoPHGOZAUdYoIMBXrc5iQAHeMlzviFygj7O8dkWEJU4XI8chALRhn9AVKHf70VRTHu4wFfbmKZLNKt50dLBnna0imcMd/2I0phWa3Y/D1e1Xa9BCZJG0VuQNpaWKMx72xS1Fl5/WN3BN+AgJhnZQlq4AAAAAElFTkSuQmCC');
+  background-position: calc(100% - .5rem),100% 0;
+  background-size: 1.5em 1.5em;
+  background-repeat: no-repeat;
+  background-color: $plain-white;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin-top: 5px;
+  width: 100%;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

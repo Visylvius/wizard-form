@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackText (Unit) render should render null if the step is not 5 1`] = `null`;
+
+exports[`FeedbackText (Unit) render should render properly 1`] = `
+<div>
+  <label
+    className="TextArea-label"
+  >
+    Please share your feedback.
+  </label>
+  <textarea
+    className="TextArea-component"
+    maxLength={1000}
+    name="feedbackText"
+    onChange={[Function]}
+    placeholder="your answer"
+    value="feedbackVal"
+  />
+  <div
+    className="FeedbackText-characterLimit"
+  >
+    989 characters remaining
+  </div>
+</div>
+`;

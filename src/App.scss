@@ -1,0 +1,33 @@
+@import './variables';
+
+.App-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: grey;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.App-modalContainer {
+  background-color: $plain-white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 500px;
+  padding: 10px;
+
+  .App-Button {
+    margin-top: 10px; 
+  }
+  
+  .App-form {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+

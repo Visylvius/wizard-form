@@ -1,0 +1,17 @@
+@import '../../variables';
+
+.TextArea-label { 
+  color: $font-main;
+  font-size: 12px;
+}
+
+.TextArea-component {
+  border: 1px solid $textarea-background;
+  border-radius: 3px;
+  color: $font-main;
+  font-size: 12px;
+  outline: none;
+  height: 54px;
+  margin-top: 10px;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render should render properly 1`] = `
+Array [
+  <label
+    className="TextArea-label"
+  >
+    this is a label
+  </label>,
+  <textarea
+    className="TextArea-component"
+    value="hello"
+  />,
+]
+`;

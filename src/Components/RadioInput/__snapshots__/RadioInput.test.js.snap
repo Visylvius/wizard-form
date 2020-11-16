@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render should render properly 1`] = `
+<div
+  className="RadioInput-container"
+>
+  <input
+    className="RadioInput-component"
+    type="radio"
+  />
+  <label
+    className="RadioInput-label"
+  >
+    stuff
+  </label>
+</div>
+`;

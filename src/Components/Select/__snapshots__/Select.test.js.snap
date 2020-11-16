@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render should render properly 1`] = `
+Array [
+  <label
+    className="Select-label"
+  />,
+  <select
+    className="Select-mainWrapper"
+    value="default"
+  >
+    <option
+      defaultValue={true}
+      disabled={true}
+      value="default"
+    >
+      Choose...
+    </option>
+    <option
+      data-testid="SelectOption-0"
+      value="stuff"
+    >
+      test
+    </option>
+    <option
+      data-testid="SelectOption-1"
+      value="default"
+    >
+      default
+    </option>
+  </select>,
+]
+`;

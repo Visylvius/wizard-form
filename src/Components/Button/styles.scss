@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.Button-component {
+  background: $button-background;
+  border: 1px solid $button-background;
+  border-radius: 3px;
+  color: $button-color;
+  cursor: pointer;
+  height: 35px; 
+  outline: none;
+  width: 199px;
+
+  &:disabled {
+    background: $button-background;
+    cursor: not-allowed;
+  }
+
+  &:hover {
+    background: $nps-background;
+  }
+}
+
+.Button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

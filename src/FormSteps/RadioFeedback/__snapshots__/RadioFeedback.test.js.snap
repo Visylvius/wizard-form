@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioFeedback (Unit) render should render null if the step is not 5 1`] = `null`;
+
+exports[`RadioFeedback (Unit) render should render properly 1`] = `
+<div
+  className="RadioFeedback-container"
+>
+  <label
+    className="RadioFeedback-label"
+  >
+    How easy was it to accomplish that goal?
+  </label>
+  <div
+    className="RadioFeedback-inputContainer"
+  >
+    <div>
+      <div
+        className="RadioInput-container RadioFeedback-RadioInput"
+      >
+        <input
+          checked={false}
+          className="RadioInput-component"
+          data-testid="RadioFeedback-radio0"
+          name="easeOfUse"
+          onChange={[MockFunction]}
+          type="radio"
+          value="Very Difficult"
+        />
+        <label
+          className="RadioInput-label"
+        >
+          Very Difficult
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="RadioInput-container RadioFeedback-RadioInput"
+      >
+        <input
+          checked={false}
+          className="RadioInput-component"
+          data-testid="RadioFeedback-radio1"
+          name="easeOfUse"
+          onChange={[MockFunction]}
+          type="radio"
+          value="Difficult"
+        />
+        <label
+          className="RadioInput-label"
+        >
+          Difficult
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="RadioInput-container RadioFeedback-RadioInput"
+      >
+        <input
+          checked={false}
+          className="RadioInput-component"
+          data-testid="RadioFeedback-radio2"
+          name="easeOfUse"
+          onChange={[MockFunction]}
+          type="radio"
+          value="Not Difficult nor Easy"
+        />
+        <label
+          className="RadioInput-label"
+        >
+          Not Difficult nor Easy
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="RadioInput-container RadioFeedback-RadioInput"
+      >
+        <input
+          checked={false}
+          className="RadioInput-component"
+          data-testid="RadioFeedback-radio3"
+          name="easeOfUse"
+          onChange={[MockFunction]}
+          type="radio"
+          value="Easy"
+        />
+        <label
+          className="RadioInput-label"
+        >
+          Easy
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="RadioInput-container RadioFeedback-RadioInput"
+      >
+        <input
+          checked={false}
+          className="RadioInput-component"
+          data-testid="RadioFeedback-radio4"
+          name="easeOfUse"
+          onChange={[MockFunction]}
+          type="radio"
+          value="Very Easy"
+        />
+        <label
+          className="RadioInput-label"
+        >
+          Very Easy
+        </label>
+      </div>
+    </div>
+    <div
+      className="Button-container"
+    >
+      <button
+        className="Button-component"
+        data-testid="RadioFeedback-Button"
+        disabled={true}
+        onClick={[MockFunction]}
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</div>
+`;
